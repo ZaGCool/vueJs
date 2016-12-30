@@ -1,0 +1,25 @@
+<div class="m-index">
+	<header>
+		<ul>
+			<li class='yo-ico'>&#xe6c1;</li>
+			<li>
+				<span class='active'>热点</span>
+				<span>关注</span>
+			</li>
+			<li class='yo-ico'>&#xe631;</li>
+		</ul>
+	</header>
+	<section></section>
+	<footer>
+		<ul>
+			<li>
+				<i>aaaa</i>
+				<b></b>
+			</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</footer>
+</div>

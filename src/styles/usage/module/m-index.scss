@@ -1,0 +1,65 @@
+@import "./common.scss";
+.m-index{
+	@include flexbox();
+	@include flex-direction(column);
+	//flex布局
+	//display: flex;
+	//flex-direction:column;
+	height: 100%;
+	header{
+		background: red;
+		height: 0.44rem;
+		background: $base-color;
+		ul{
+			height: 100%;
+			@include flexbox();
+
+			li:first-child,
+			li:last-child{
+				width:0.44rem;
+				height:100%;
+				text-align: center;
+				line-height: 0.44rem;
+				font-size: 0.24rem;
+				color:rgba(255,255,255,0.5);
+			}
+			li:nth-child(2){
+				@include flex();
+				@include flexbox();
+				@include align-items();
+				@include justify-content();
+				span{
+					display: inline-block;
+					width: .59rem;
+					height: .25rem;
+					color: #fff;
+					text-align: center;
+					line-height: .25rem;
+					background: rgba(100,217,133,0.6);
+					&:first-child{
+						border-radius: 0.1rem 0rem  0rem .1rem;
+					}
+					&:last-child{
+						border-radius:0rem 0.1rem .1rem 0rem;						
+					}
+					&.active{
+						background: #64d985;
+					}
+				}
+			}
+		}
+	}
+	section{
+		@include flex();
+		width:100%;//兼容低端机
+		//flex:1;
+		background: gray;
+	}
+	footer{
+		background: green;
+		height: 0.44rem;
+	}
+	> *{
+		width:100%;
+	}
+}

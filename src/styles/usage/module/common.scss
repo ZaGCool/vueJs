@@ -1,0 +1,9 @@
+$base-color:green;
+
+@font-face {font-family: "yofont";
+  src: url('/images/fonts/iconfont.eot?t=1482995654048'); /* IE9*/
+  src: url('/images/fonts/iconfont.eot?t=1482995654048#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/images/fonts/iconfont.woff?t=1482995654048') format('woff'), /* chrome, firefox */
+  url('/images/fonts/iconfont.ttf?t=1482995654048') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('/images/fonts/iconfont.svg?t=1482995654048#iconfont') format('svg'); /* iOS 4.1- */
+}
